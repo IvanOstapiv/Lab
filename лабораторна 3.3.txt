@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    float x,z,y,a,b;
+    printf("a=");
+    scanf("%f",&a);
+    printf("b=");
+    scanf("%f",&b);
+    x=a-pow(b,2);//Я приклад розділив по частинам. 
+    y=a*b;//Я провіряв. Результат такий самий буде.
+    if (x<=0 || y<=0)
+    {
+        printf("Помилка. Похоже у відповіді від'ємне число  ");
+    }
+    else
+    {
+        z=sqrt(x)+sqrt(y);
+        printf("z = %f",z);
+            
+        
+    }
+    
+}

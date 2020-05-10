@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+float y=0,x=0,b = 3,dx = 0.05;
+printf("X\t\t\t\t\tY\n");
+while (x<=b)
+{
+y=pow(4,-cos(x));
+printf(" %f\t%9.2lf\n", x, y);
+x+=dx;
+}
+return 0;
+}

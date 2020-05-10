@@ -1,0 +1,54 @@
+﻿
+#include <stdio.h>
+
+int main()
+{
+int a,b,c;
+printf("Введіть число a = ");
+scanf("%d",&a);
+printf("Введіть число b = ");
+scanf("%d",&b);
+printf("Введіть число с = ");
+scanf("%d",&c);
+if(a>b & a>c)
+{
+    printf("Число а - найбільше.");
+}
+else if(b>a & b>c)
+{
+    printf("Число b - найбільше.");
+}
+else if(c>b & c>a)
+{
+    printf("Число c - найбільше.");
+}
+else
+{
+    printf("N");
+}
+if(a==b & b==c)
+{
+    printf(" Рівносторонній трикутник");
+}
+else if((a==b & a!=c) || (a==c & a!=b) || (b==c & b!=a))
+{
+    printf(" Рівнобедрений трикутник");
+}
+else if(a!=b && b!=c && c!=a)
+{
+    printf(" Різносторонній трикутник");
+}
+else
+{
+    printf("N");
+}
+if(a+b>c & c+b>a & a+c>b)
+{
+    printf(" можна побудувати. ");
+}
+else
+{
+    printf(" не можна побудувати.");
+}
+    return 0;
+}

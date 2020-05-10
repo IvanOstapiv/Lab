@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+
+{
+    int i=-20,s=0,a;
+    while(i<10)
+{
+    if (i>0)
+    s += i;
+    a=pow(s,2);
+    i++;
+} 
+printf("a=%d",a);
+}

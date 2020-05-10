@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <string.h>
+#include <locale.h>
+
+int main()
+{
+    int n = 0;
+    while(1)
+    {
+        printf("Введіть число співпадающий з днем тижня.\n");
+        scanf("%d",&n);
+        switch(n)
+        {
+            case 1:
+            printf("Понеділок\n\n");
+            break;
+            case 2:
+            printf("Вівторок\n\n");
+            break;
+            case 3:
+            printf("Середа\n\n");
+            break;
+            case 4:
+            printf("Четвер\n\n");
+            break;
+            case 5:
+            printf("П'ятниця\n\n");
+            break;
+            case 6:
+            printf("Субота\n\n");
+            break;
+            case 7:
+            printf("Неділя\n\n");
+            break;
+            default:
+            printf("Під таким числом дня тижня не існує\n");
+            return 0;
+            
+        }
+    }
+}

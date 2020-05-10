@@ -1,0 +1,17 @@
+#include <math.h>
+#include <stdio.h>
+#include<locale.h>
+
+
+int main()
+{
+    int a,b,c,d;
+    printf("a=");
+    scanf("%d",&a);
+    printf("b=");
+    scanf("%d",&b);
+    printf("c=");
+    scanf("%d",&c);
+    d=(5*a-b+c*c)/(2+c)+1;
+    printf("%d",d);
+}

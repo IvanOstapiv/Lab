@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+
+{
+    int a,b,c;
+do
+{
+        printf("Введіть число а = ");
+        scanf("%d",&a);
+        printf("Введіть число b = ");
+        scanf("%d",&b);
+        c=(2*a-b)*(2*b+a)/sqrt(a-2*b)+2*b;
+        if(c<0)
+        {
+        printf("Помилка. Вийшло від'ємне число.\n");
+        printf("попробуйте ище раз.\n");
+        }
+        else
+        {
+            printf("%d",c);
+        }
+}       while(c<0);
+}

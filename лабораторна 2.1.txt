@@ -1,0 +1,19 @@
+#include <math.h>
+#include <stdio.h>
+#include<locale.h>
+
+int main()
+{
+	int a,b,c,d,z;
+	printf("Перше ціле число а=");
+	scanf("%d",&a);
+	printf("Друге ціле число b=");
+	scanf("\n%d",&b);
+	c=fmod(a,b);
+	d=a-b;
+	z=a+b;
+	printf("Залишок від ділення\n%d",c);
+	printf("\nPізниця чисел\n%d",d);
+	printf("\nСума чисел\n%d",z);
+	
+}

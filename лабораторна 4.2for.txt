@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+
+{
+    int i=-20,s,a;
+    for(s=0; i<10;i++)
+{
+    if (i>0)
+    s += i;
+    a=pow(s,2);
+} 
+printf("a=%d",a);
+}

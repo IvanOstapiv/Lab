@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+int a,b,c,d;
+printf("Введіть число а = ");
+scanf("%d",&a);
+printf("Введіть число b = ");
+scanf("%d",&b);
+c=pow(a,2)+pow(b,2);
+c=sqrt(c);
+d=c+a+b;
+printf("\nГіпотенуза с = %d",c);
+printf("\nПериметр d = %d",d);
+}

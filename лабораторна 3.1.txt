@@ -1,0 +1,27 @@
+
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+float a,s,f;
+printf("введіть число s =");
+scanf("%g",&s);
+printf("введіть число а =");
+scanf("%g",&a);
+if(s < 0)
+{
+      f = 2*s+a*s*s;
+	 printf ("виконалсь перша умова\n%g",f);
+}
+else if (s > 0)
+{
+      f = 12-s/2*a-4;
+     printf ("виконалсь друга умова\n%g",f);
+}
+else
+{
+     f = sqrt(15-s)+8*s*a;
+     printf ("виконалсь третя умова\n%g",f);
+}
+    return 0;
+}
